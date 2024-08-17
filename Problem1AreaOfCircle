@@ -1,0 +1,15 @@
+import math
+
+def areaOfCircle(r):
+
+    a = r*r * math.pi
+
+    return a
+
+r = float(input("Enter the radius of the circle: "))
+
+print("%f" %areaOfCircle(r))
+
+#Eric Sarmiento
+#8/17/2024
+#Promblem 2 this is a function that calucatle the area of a circle of radius 
