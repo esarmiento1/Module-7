@@ -1,0 +1,16 @@
+def removeDup(list):
+    res = []     
+    
+    for i in list:            
+        if i not in res:      
+            res.append(i)     
+            
+    print("After removing duplicates, list = ", res)
+    
+
+list = [1,3,3,3,6,2,3,5]     #original list
+removeDup(list)
+
+#Eric Sarmiento
+#8/17/2024
+#Problem 4 this program function that takes a list of numbers and returns a new list with unique elements
