@@ -1,0 +1,13 @@
+def mul(list):
+    result = 1
+    for ele in list:
+        result = result * ele
+        
+    print("Result =  ",result)
+
+list = [5,2,7,-1]
+mul(list)
+
+#Eric Sarmiento
+#8/17/2024
+#Promblem 3 this program  multiply numbers in the list
